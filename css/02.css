@@ -1,0 +1,18 @@
+.oferta{
+	background-color: #00446e;
+	padding: 2rem;
+	text-align: center
+}
+.precio{
+	font-size: 4rem;
+	margin:0;
+}
+
+/* Si iniciamos de Mobile First */
+/* min-with o sea de 600px en adelante aplico lo siguiente: */
+@media (min-width: 600px){
+	.oferta{
+		max-width:40rem;
+		margin:0 auto;
+	}
+}
