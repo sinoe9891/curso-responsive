@@ -8,11 +8,21 @@
 	margin:0;
 }
 
-/* Si iniciamos de Mobile First */
+/* Si iniciamos de Mobile First del más pequeño la más grande*/
 /* min-with o sea de 600px en adelante aplico lo siguiente: */
 @media (min-width: 600px){
 	.oferta{
 		max-width:40rem;
 		margin:0 auto;
 	}
+	.precio{
+		font-size: 2rem;
+	}
 }
+
+@media (min-width: 800px){
+	.oferta{
+		max-width:60rem;
+	}
+}
+
