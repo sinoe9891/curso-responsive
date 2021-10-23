@@ -1,0 +1,28 @@
+.oferta{
+	background-color: #00446e;
+	padding: 2rem;
+	text-align: center;
+	max-width:60rem;
+	margin:0 auto;
+}
+.precio{
+	font-size:4rem;
+	margin:0;
+}
+/* Si iniciamos de Desktop First del mas grande al más pequeños
+Diseñas para dispositivos más grandes*/
+/* Solo se debe de usar una opcion Mobile o Desktop y no revolver */
+/* max-with o sea de 800px hacia abajo aplico lo siguiente: */
+/* El orden es importante en Desktop First de arriba hacia abajo como funciona CSS en cascadas 
+POr ejemplo tomara el 800 porque es el ultimo*/
+@media(max-width:800px){
+	.oferta{
+		max-width:40rem;
+	}
+}
+
+@media (max-width:600px){
+	.oferta{
+		max-width:100%;
+	}
+}

@@ -1,0 +1,14 @@
+/* Snippets */
+/* command + shif + p
+user snippets
+Css */
+/* "media query1" : {
+	"prefix" : "mq",
+	"body" : [
+		"@media (min-width: $1px) { \n\t$2\n}"
+	]
+} */
+
+@media (min-width: 700px) { 
+	
+}
